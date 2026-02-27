@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2" pages="3">
   <diagram name="01 Use Case" id="b3TOkPL4r0neLaziU9_C">
-    <mxGraphModel dx="1426" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2852" dy="2553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="gl-C_rBgtImPy7tAFqOw-0" />
         <mxCell id="gl-C_rBgtImPy7tAFqOw-1" parent="gl-C_rBgtImPy7tAFqOw-0" />
         <mxCell id="gl-C_rBgtImPy7tAFqOw-2" parent="gl-C_rBgtImPy7tAFqOw-1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="1230" width="790" x="190" y="20" as="geometry" />
+          <mxGeometry height="1620" width="790" x="190" y="20" as="geometry" />
         </mxCell>
         <mxCell id="fvb-PgYKI29BjAG0K70A-3" parent="gl-C_rBgtImPy7tAFqOw-1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" value="" vertex="1">
           <mxGeometry height="560" width="710" x="230" y="650" as="geometry" />
@@ -167,6 +167,24 @@
             <mxPoint x="1336" y="335" as="sourcePoint" />
             <mxPoint x="960" y="240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="YvjANeDwKWEgh49yCQTT-0" parent="gl-C_rBgtImPy7tAFqOw-1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="300" width="710" x="230" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="YvjANeDwKWEgh49yCQTT-1" parent="gl-C_rBgtImPy7tAFqOw-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Future Expansion Deltas (Step 2, Step 3)" vertex="1">
+          <mxGeometry height="30" width="240" x="230" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="YvjANeDwKWEgh49yCQTT-2" parent="gl-C_rBgtImPy7tAFqOw-1" style="ellipse;whiteSpace=wrap;html=1;" value="Provide Schooling Info&lt;div&gt;&quot;Part of Step Two&quot;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="320" y="1335" as="geometry" />
+        </mxCell>
+        <mxCell id="YvjANeDwKWEgh49yCQTT-3" parent="gl-C_rBgtImPy7tAFqOw-1" style="ellipse;whiteSpace=wrap;html=1;" value="Provide Employment Info&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&quot;Part of Step Three&quot;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="460" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="YvjANeDwKWEgh49yCQTT-5" parent="gl-C_rBgtImPy7tAFqOw-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="school transition signals" vertex="1">
+          <mxGeometry height="30" width="130" x="270" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="YvjANeDwKWEgh49yCQTT-6" parent="gl-C_rBgtImPy7tAFqOw-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="adulthood signals (employment, day activity)" vertex="1">
+          <mxGeometry height="30" width="160" x="320" y="1430" as="geometry" />
         </mxCell>
         <mxCell id="YvjANeDwKWEgh49yCQTT-7" parent="gl-C_rBgtImPy7tAFqOw-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="geo aggregation to guide where to run events, deploy volunteers, prioritise outreach." vertex="1">
           <mxGeometry height="30" width="250" x="655" y="1120" as="geometry" />
@@ -373,7 +391,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BfU-BtCcI6qSNxQBrrlG-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;b&gt;Person&lt;/b&gt;&lt;br&gt;—&lt;br&gt;&lt;b&gt;PK&lt;/b&gt; person_id&lt;br&gt;full_name&lt;br&gt;preferred_language&lt;br&gt;year_of_birth&lt;br&gt;date_of_birth&lt;br&gt;gender&lt;br&gt;is_member&lt;br&gt;roles&lt;div&gt;life_status&lt;/div&gt;&lt;div&gt;date_of_death&lt;br&gt;created_at&lt;br&gt;updated_at&lt;/div&gt;" vertex="1">
+        <mxCell id="BfU-BtCcI6qSNxQBrrlG-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;b&gt;Person&lt;/b&gt;&#xa;—&#xa;&lt;b&gt;PK&lt;/b&gt; person_id&#xa;full_name&#xa;preferred_language&#xa;year_of_birth&#xa;date_of_birth&#xa;gender&#xa;area_of_residence&#xa;is_member&#xa;roles&#xa;created_at&#xa;updated_at" vertex="1">
           <mxGeometry height="240" width="320" x="-140" y="-170" as="geometry" />
         </mxCell>
         <mxCell id="BfU-BtCcI6qSNxQBrrlG-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;b&gt;ContactPoint&lt;/b&gt;&#xa;—&#xa;&lt;b&gt;PK&lt;/b&gt; contact_id&#xa;&lt;b&gt;FK&lt;/b&gt; person → Person&#xa;type&#xa;value&#xa;is_primary&#xa;is_verified&#xa;source&#xa;created_at&#xa;updated_at" vertex="1">
@@ -394,7 +412,7 @@
         <mxCell id="BfU-BtCcI6qSNxQBrrlG-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;b&gt;PersonFamilyLink&lt;/b&gt;&#xa;—&#xa;&lt;b&gt;PK&lt;/b&gt; pfl_id&#xa;&lt;b&gt;FK&lt;/b&gt; person → Person&#xa;&lt;b&gt;FK&lt;/b&gt; family_unit → FamilyUnit&#xa;role_in_family&#xa;is_primary_household&#xa;notes" vertex="1">
           <mxGeometry height="220" width="360" x="690" y="-340" as="geometry" />
         </mxCell>
-        <mxCell id="BfU-BtCcI6qSNxQBrrlG-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;b&gt;Recipient&lt;/b&gt;&lt;br&gt;—&lt;br&gt;&lt;b&gt;PK&lt;/b&gt; recipient_id&lt;br&gt;display_name&lt;div&gt;gender&lt;br&gt;year_of_birth&lt;br&gt;diagnosis_primary&lt;br&gt;diagnosis_secondary&lt;/div&gt;&lt;div&gt;&lt;div&gt;life_status&lt;/div&gt;&lt;div&gt;date_of_death&lt;/div&gt;care_intensity_band&lt;br&gt;created_at&lt;br&gt;updated_at&lt;/div&gt;" vertex="1">
+        <mxCell id="BfU-BtCcI6qSNxQBrrlG-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;b&gt;Recipient&lt;/b&gt;&#xa;—&#xa;&lt;b&gt;PK&lt;/b&gt; recipient_id&#xa;display_name&#xa;year_of_birth&#xa;diagnosis_primary&#xa;diagnosis_secondary&#xa;care_intensity_band&#xa;created_at&#xa;updated_at" vertex="1">
           <mxGeometry height="240" width="320" x="-810" y="150" as="geometry" />
         </mxCell>
         <mxCell id="BfU-BtCcI6qSNxQBrrlG-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;b&gt;PersonRecipientLink&lt;/b&gt;&#xa;—&#xa;&lt;b&gt;PK&lt;/b&gt; prl_id&#xa;&lt;b&gt;FK&lt;/b&gt; person → Person&#xa;&lt;b&gt;FK&lt;/b&gt; recipient → Recipient&#xa;caregiver_role&#xa;relationship&#xa;start_date&#xa;end_date&#xa;notes" vertex="1">
